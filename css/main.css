@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+/*-------section About Me---------*/
+.about {
+  background: #ffffff;
+  text-align: center;
+}
+
+.about__heading {
+  font-weight: 300;
+  font-size: 50px;
+  color: #3677fd;
+  margin: 85px 50px 47px;
+}
+
+.about__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  margin-bottom: 112px;
+}
+
+/*-------section Expert In---------*/
+.expert {
+  background: #f1f8ff;
+  text-align: center;
+}
+
+.expert__heading {
+  color: #3677fd;
+  font-weight: 300;
+  font-size: 50px;
+  margin-bottom: 120px;
+  padding-top: 83px;
+}
+
+.cards-expert {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.cards-expert__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 350px;
+  margin-right: 30px;
+}
+
+.cards-expert__img {
+  border: 1px solid #b7c0c9;
+  border-radius: 50%;
+  width: 144px;
+  height: 144px;
+}
+
+.cards-expert__heading {
+  font-weight: 700;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #3677fd;
+}
+
+.cards-expert__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  color: #5a5a5a;
+  min-height: 135px;
+}
+
+.cards-expert__ico {
+  padding-top: 28%;
+}
+/*# sourceMappingURL=main.css.map */

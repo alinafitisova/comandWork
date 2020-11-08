@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+$colorBlue: #3677fd ;
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+/*-------section About Me---------*/
+.about {
+  background: #ffffff;
+  text-align: center;
+  &__heading {
+   font-weight: 300;
+   font-size: 50px;
+   color: $colorBlue;
+   margin: 85px 50px 47px;
+   }
+  &__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  margin-bottom: 112px;
+}
+  }
+
+  /*-------section Expert In---------*/
+.expert {
+  background: #f1f8ff;
+  text-align: center;
+  &__heading {
+    color: $colorBlue;
+    font-weight: 300;
+    font-size: 50px;
+    margin-bottom: 120px;
+    padding-top: 83px;
+  }
+}
+.cards-expert {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+   &__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 350px;
+    margin-right: 30px;
+    }
+   &__img {
+    border : 1px solid #b7c0c9;
+    border-radius: 50%;
+    width: 144px;
+    height: 144px;
+  }
+  &__heading {
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: $colorBlue;
+  }
+  &__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    color: #5a5a5a;
+    min-height: 135px;
+   }
+}
+.cards-expert__ico {
+  padding-top: 28%;
+}
