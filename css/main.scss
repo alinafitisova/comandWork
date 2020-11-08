@@ -2,6 +2,7 @@
 
 $colorBlue: #3677fd ;
 
+
 body {
   font-family: 'Lato', sans-serif;
 }
@@ -35,7 +36,7 @@ body {
     color: $colorBlue;
     font-weight: 300;
     font-size: 50px;
-    margin-bottom: 120px;
+    margin-bottom: 110px;
     padding-top: 83px;
   }
 }
@@ -56,12 +57,25 @@ body {
     border-radius: 50%;
     width: 144px;
     height: 144px;
+    &:hover {
+      background: #ffff;
+      transition: all .3s;
+      border : 1px solid $colorBlue;
+    }
   }
   &__heading {
     font-weight: 700;
     font-size: 24px;
     text-transform: uppercase;
     color: $colorBlue;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    margin: 32px auto 0px;
+    &:hover {
+      color: #6094ff;
+      transition: all .2s;
+    }
   }
   &__text {
     font-weight: 400;
@@ -69,6 +83,7 @@ body {
     line-height: 35px;
     color: #5a5a5a;
     min-height: 135px;
+    margin: 0 0 52px 0;
    }
 }
 .cards-expert__ico {

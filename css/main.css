@@ -38,7 +38,7 @@ body {
   color: #3677fd;
   font-weight: 300;
   font-size: 50px;
-  margin-bottom: 120px;
+  margin-bottom: 110px;
   padding-top: 83px;
 }
 
@@ -78,11 +78,28 @@ body {
   height: 144px;
 }
 
+.cards-expert__img:hover {
+  background: #ffff;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+  border: 1px solid #3677fd;
+}
+
 .cards-expert__heading {
   font-weight: 700;
   font-size: 24px;
   text-transform: uppercase;
   color: #3677fd;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  margin: 32px auto 0px;
+}
+
+.cards-expert__heading:hover {
+  color: #6094ff;
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
 
 .cards-expert__text {
@@ -91,6 +108,7 @@ body {
   line-height: 35px;
   color: #5a5a5a;
   min-height: 135px;
+  margin: 0 0 52px 0;
 }
 
 .cards-expert__ico {
